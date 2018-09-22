@@ -92,7 +92,7 @@ HTML 是用来描述网页的超文本标记语言（Hyper Text Markup Language�
             &lt;meta http-equiv="Content-Type" content="text/html; charset=gb2312" /&gt;
 
             文档重定向：  
-&lt;meta http-equiv="Refresh" content="5;url=http://www.w3school.com.cn" /&gt;
+&lt;meta http-equiv="Refresh" content="5;url=http://www.w3school.com.cn" /&gt;
 
             * name  
             1) 把content属性关联到一个名称  
@@ -118,3 +118,32 @@ HTML 是用来描述网页的超文本标记语言（Hyper Text Markup Language�
     文档内容在这里编写
 
 #### HTML5 全局属性
+1. accessKey  
+规定访问元素的键盘快捷键 （？在mac上不生效？）  
+2. class 
+document.getElementsByClassName()
+3. dir  
+- 规定元素中<font color='red'>**文字**</font>的方向，不包含符号等其他它非文字部分，这是与text-align的区别之处
+- 两个有效值：
+    1. ltr (从左到右)
+    2. rtl（从右到左）
+4. id  
+5. lang  
+6. style  
+7. tabindex
+8. title  
+
+以下是HTML5<font color='red'>新增</font>属性
+9. contenteditable 
+10. contextmenu
+11. data-yourvalue
+12. draggle
+13. hidden
+14. item  
+15. itemprop  
+16. spellcheck  
+17. subject  
+
+
+
+
