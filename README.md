@@ -120,20 +120,35 @@ HTML 是用来描述网页的超文本标记语言（Hyper Text Markup Language�
 #### HTML5 全局属性
 1. accessKey  
 规定访问元素的键盘快捷键 （？在mac上不生效？）  
-2. class 
-document.getElementsByClassName()
+2. class  
+    - 原生js选择：document.getElementsByClassName()
+    - jQuery选择：$('.' + className)
 3. dir  
     - 规定元素中<font color='#ff000'>**文字**</font>的方向
     - 两个有效值：
     1. ltr (从左到右)
     2. rtl（从右到左）
-    - 只有运用在&lt;bdo&gt;标签上时，才能真正生效  [使用示例](https://hf024.github.io/html5-learning/demo/html-bdo-dir.html)
+    - 常用于&lt;bdo标签&gt; [使用示例](https://hf024.github.io/html5-learning/demo/html-bdo-dir.html)
     - 运用在非&lt;bdo&gt;标签上时，与text-align的表现类似，但是又有区别，[查看](https://hf024.github.io/html5-learning/demo/html-dir.html)
 4. id  
+    - 元素的唯一标识符
+    - 可用来定位到文档中的特定位置，如:demo.html中有一个id属性为element的元素，则可以使用example.html#elment直接定位到该元素
+    - 原生JS选择：document.getElementById()
+    - jQuery选择：$('#' + id)
 5. lang  
+    - 说明元素内容的使用语言
+    - 有效值必须是ISO语言代码，常用的：en(英语)，zh(中文)
+    - 常用于&lt;html&gt;标签
 6. style  
+    - 直接在元素上定义css样式
 7. tabindex
+    - HTML页面上的键盘焦点可以通过按Tab键在各元素之间切换，tabindex属性可以改变默认的切换顺序  
+    - 值设置为-1的元素，在用户按下Tab键后不会被选中
+    - 值设为大于0的数，值越小，被选中的优先级越高
+    - [使用示例](https://hf024.github.io/html5-learning/demo/html-tabindex.html)
 8. title  
+    - 提供元素的额外信息，通常用于显示提示信息
+    - 常用在&lt;a&gt;标签上
 
 以下是HTML5<font color='red'>新增</font>属性
 9. contenteditable 
