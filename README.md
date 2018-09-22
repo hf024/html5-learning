@@ -128,7 +128,7 @@ document.getElementsByClassName()
     1. ltr (从左到右)
     2. rtl（从右到左）
     - 只有运用在&lt;bdo&gt;标签上时，才能真正生效  [使用示例](https://hf024.github.io/html5-learning/demo/html-bdo-dir.html)
-    - 运用在非&lrt;bdo&gt;标签上时，与text-align的表现类似，但是又有区别，[示例](https://hf024.github.io/html5-learning/demo/html-dir.html)
+    - 运用在非&lt;bdo&gt;标签上时，与text-align的表现类似，但是又有区别，[查看](https://hf024.github.io/html5-learning/demo/html-dir.html)
 4. id  
 5. lang  
 6. style  
