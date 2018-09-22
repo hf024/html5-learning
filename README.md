@@ -142,7 +142,7 @@ HTML 是用来描述网页的超文本标记语言（Hyper Text Markup Language�
 6. style  
     - 直接在元素上定义css样式
 7. tabindex
-    - HTML页面上的键盘焦点可以通过按Tab键在各元素之间切换，tabindex属性可以改变默认的切换顺序  
+    - HTML页面上的键盘焦点可以通过按Tab键在各元素之间切换，tabindex属性可以改变默认的切换顺序  
     - 值设置为-1的元素，在用户按下Tab键后不会被选中
     - 值设为大于0的数，值越小，被选中的优先级越高
     - [使用示例](https://hf024.github.io/html5-learning/demo/html-tabindex.html)
