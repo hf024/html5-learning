@@ -92,10 +92,11 @@ HTML 是用来描述网页的超文本标记语言（Hyper Text Markup Language�
             &lt;meta http-equiv="Content-Type" content="text/html; charset=gb2312" /&gt;
 
             文档重定向：  
-&ltlmeta http-equiv="Refresh" content="5;url=http://www.w3school.com.cn" /&gt;
+&lt;meta http-equiv="Refresh" content="5;url=http://www.w3school.com.cn" /&gt;
 
             * name  
-            1) 把content属性关联到一个名称 2) 可能值：  
+            1) 把content属性关联到一个名称  
+            2) 可能值：  
                 author    
                 description  
                 keywords  
@@ -116,9 +117,4 @@ HTML 是用来描述网页的超文本标记语言（Hyper Text Markup Language�
 + &lt;body&gt;  
     文档内容在这里编写
 
-
-
-
-    
-
-
+#### HTML5 全局属性
