@@ -123,8 +123,8 @@ HTML 是用来描述网页的超文本标记语言（Hyper Text Markup Language�
 2. class 
 document.getElementsByClassName()
 3. dir  
-- 规定元素中<font color='red'>**文字**</font>的方向，不包含符号等其他它非文字部分，这是与text-align的区别之处
-- 两个有效值：
+    - 规定元素中<font color='#ff000'>**文字**</font>的方向，不包含符号等其他它非文字部分，这是与text-align的区别之处
+    - 两个有效值：
     1. ltr (从左到右)
     2. rtl（从右到左）
 4. id  
