@@ -127,6 +127,7 @@ document.getElementsByClassName()
     - 两个有效值：
     1. ltr (从左到右)
     2. rtl（从右到左）
+    - [示例]（https://hf024.github.io/html5-learning/demo/html-dir.html）
 4. id  
 5. lang  
 6. style  
