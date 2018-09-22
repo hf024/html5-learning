@@ -151,19 +151,46 @@ HTML 是用来描述网页的超文本标记语言（Hyper Text Markup Language�
     - 常用在&lt;a&gt;标签上
 
 以下是HTML5<font color='red'>新增</font>属性
-9. contenteditable
-    - 让用户能够修改页面内容
-    - 值设置为true时，元素可编辑
-    - 值设置为false时，元素禁止编辑
+9. contenteditable  
+    - 让用户能够修改页面内容  
+    - 值设置为true时，元素可编辑  
+    - 值设置为false时，元素禁止编辑  
     - [使用示例](https://hf024.github.io/html5-learning/demo/html5-contenteditable.html)
-10. contextmenu
+10. contextmenu     
+    - 为元素设定快捷菜单，如右键弹出
+    - 暂无浏览器支持该属性   
+
 11. data-yourvalue
 12. draggle
-13. hidden
+    - 用来说明元素是否可以拖放
+    - 任何元素都可以拖放
+    - 值设置为true，说明可以拖放
+    - 使用方法：
+    1. 设置被拖动元素的draggle属性：draggable="true"
+    2. 设置被拖动元素的 ondragstart 事件，通常调用event.dataTransfer.setData(type, value) 方法设置被拖数据的数据类型和值
+    3. 设置被拖动元素最终拖动目标位置处元素的 ondragover事件。默认地，无法将数据/元素放置到其他元素中。如果需要设置允许放置，我们必须阻止对元素的默认处理方式。这要通过调用 ondragover 事件的 event.preventDefault() 方法实现。
+    4. 设置被拖动元素最终拖动目标位置处元素的 drop 事件。
+    - 调用 preventDefault() 来避免浏览器对数据的默认处理（drop 事件的默认行为是以链接形式打开） 
+    - 通过 dataTransfer.getData("Text") 方法获得被拖的数据。该方法将返回在 setData() 方法中设置为相同类型的任何数据。  
+    - 被拖数据是被拖元素的 id ("drag1")  
+    - 把被拖元素追加到放置元素（目标元素）中 
+    - [使用示例](https://hf024.github.io/html5-learning/demo/html5-draggle.html)
+13. hidden  
+    - 隐藏元素
 14. item  
+    - 
 15. itemprop  
+    -  
 16. spellcheck  
-17. subject  
+    - 用来说明浏览器是否应该对该元素内容进行拼写检查
+    - 只用在用户可编辑元素上才有效
+    - 值设置为false ，禁止拼写检查
+    - 值设置为true，启用拼写检查
+    - 拼写检查的实现方式因浏览器而已  
+    Chrome:键入时检查  
+    其他浏览器则需要用户发出检查拼写的指示。 
+17. subject
+    -     
 
 
 
