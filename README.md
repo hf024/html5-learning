@@ -123,11 +123,12 @@ HTML 是用来描述网页的超文本标记语言（Hyper Text Markup Language�
 2. class 
 document.getElementsByClassName()
 3. dir  
-    - 规定元素中<font color='#ff000'>**文字**</font>的方向，不包含符号等其他它非文字部分，这是与text-align的区别之处
+    - 规定元素中<font color='#ff000'>**文字**</font>的方向
     - 两个有效值：
     1. ltr (从左到右)
     2. rtl（从右到左）
-    - [示例]（https://hf024.github.io/html5-learning/demo/html-dir.html）
+    - 与text-align的[区别](https://hf024.github.io/html5-learning/demo/html-dir.html)
+    - 运用在&lt;bdo&gt;标签上时，才能真正生效，[示例] (https://hf024.github.io/html5-learning/demo/html-bdo-dir.html)
 4. id  
 5. lang  
 6. style  
