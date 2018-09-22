@@ -132,11 +132,11 @@ HTML 是用来描述网页的超文本标记语言（Hyper Text Markup Language�
     - 运用在非&lt;bdo&gt;标签上时，与text-align的表现类似，但是又有区别，[查看](https://hf024.github.io/html5-learning/demo/html-dir.html)
 4. id  
     - 元素的唯一标识符
-    - 可用来定位到文档中的特定位置，如:demo.html中有一个id属性为element的元素，则可以使用example.html#elment直接定位到该元素
+    - 可用来定位到文档中的特定位置，如:demo.html中有一个id属性为element的元素，则可以使用example.html#elment直接定位到该元素
     - 原生JS选择：document.getElementById()
     - jQuery选择：$('#' + id)
 5. lang  
-    - 说明元素内容的使用语言
+    - 说明元素内容的使用语言
     - 有效值必须是ISO语言代码，常用的：en(英语)，zh(中文)
     - 常用于&lt;html&gt;标签
 6. style  
@@ -163,10 +163,10 @@ HTML 是用来描述网页的超文本标记语言（Hyper Text Markup Language�
 11. data-yourvalue
 12. draggle
     - 用来说明元素是否可以拖放
-    - 任何元素都可以拖放
-    - 值设置为true，说明可以拖放
+    - 任何元素都可以拖放
+    - 值设置为true，说明可以拖放
     - 使用方法：
-    1. 设置被拖动元素的draggle属性：draggable="true"
+    1. 设置被拖动元素的draggle属性：draggable="true"
     2. 设置被拖动元素的 ondragstart 事件，通常调用event.dataTransfer.setData(type, value) 方法设置被拖数据的数据类型和值
     3. 设置被拖动元素最终拖动目标位置处元素的 ondragover事件。默认地，无法将数据/元素放置到其他元素中。如果需要设置允许放置，我们必须阻止对元素的默认处理方式。这要通过调用 ondragover 事件的 event.preventDefault() 方法实现。
     4. 设置被拖动元素最终拖动目标位置处元素的 drop 事件。
@@ -186,8 +186,8 @@ HTML 是用来描述网页的超文本标记语言（Hyper Text Markup Language�
     - 只用在用户可编辑元素上才有效
     - 值设置为false ，禁止拼写检查
     - 值设置为true，启用拼写检查
-    - 拼写检查的实现方式因浏览器而已  
-    Chrome:键入时检查  
+    - 拼写检查的实现方式因浏览器而异  
+    Chrome:键入时检查  
     其他浏览器则需要用户发出检查拼写的指示。 
 17. subject
     -     
