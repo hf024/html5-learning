@@ -151,7 +151,11 @@ HTML 是用来描述网页的超文本标记语言（Hyper Text Markup Language�
     - 常用在&lt;a&gt;标签上
 
 以下是HTML5<font color='red'>新增</font>属性
-9. contenteditable 
+9. contenteditable
+    - 让用户能够修改页面内容
+    - 值设置为true时，元素可编辑
+    - 值设置为false时，元素禁止编辑
+    - [使用示例](https://hf024.github.io/html5-learning/demo/html5-contenteditable.html)
 10. contextmenu
 11. data-yourvalue
 12. draggle
